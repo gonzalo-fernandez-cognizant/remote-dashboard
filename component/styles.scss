@@ -1,0 +1,26 @@
+#root {
+    height: auto !important;
+}
+body {
+    background: rgb(44, 44, 44);
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+* {
+    box-sizing: border-box;
+
+}
+nav {
+    margin: 20px;
+    button {
+        margin-left: 10px;
+        width: 100px;
+        height: 30px;
+        font-size: 25px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
