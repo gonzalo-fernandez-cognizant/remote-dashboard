@@ -14,8 +14,7 @@ module.exports = {
     output: {
         filename: '[name].bundle.[contenthash].js',
         path:  path.resolve(__dirname, '../dist'),
-        // publicPath: 'file:///home/gonzalofernandez/projects/pocs-and-tutos/webpack-tuto/module-federation/build-test/',
-        publicPath: '',
+        publicPath: 'https://remote-dashboard-delta.vercel.app/',
         clean: true
     },
     // resolve: {
