@@ -95,8 +95,8 @@ module.exports = {
             name: 'AppHost',
             filename: "remoteEntry.js",
             remotes: {
-                App1: 'MyApp1@remoteApp1.js',
-                App2: 'MyApp2@remoteApp2.js'
+                App1: 'MyApp1@https://remote-app1.vercel.app/remoteApp1.js',
+                App2: 'MyApp2@https://remote-app2.vercel.app/remoteApp2.js'
             }
         })
     ]
